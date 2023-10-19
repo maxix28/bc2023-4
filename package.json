@@ -1,0 +1,19 @@
+{
+       "name": "bc2023-4",
+       "version": "1.0.0",
+       "description": "Лабораторна робота No4: Робота з XML та створення серверу",
+       "main":"main.js",
+       "scripts": {
+              "start": "node server.js",
+              "dev": "nodemon servmainr.js"
+       },
+       "dependencies": {
+              "axios": "^1.5.1",
+              "fast-xml-parser": "^4.0.1",
+              "fs": "^0.0.1-security",
+              "xmlbuilder": "^15.1.1"
+       },
+       "devDependencies": {
+              "nodemon": "^3.0.1"
+       }
+}
